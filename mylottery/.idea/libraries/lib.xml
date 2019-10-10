@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/lib" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://E:/doc/sourceCode/jdk8u-jdk-master.zip!/jdk8u-jdk-master/src/share/classes" />
+      <root url="jar://E:/doc/sourceCode/jdk8u-jdk-master.zip!/jdk8u-jdk-master/src/share/classes" />
+      <root url="jar://E:/doc/sourceCode/jdk8u-jdk-master.zip!/jdk8u-jdk-master/src/share/classes" />
+      <root url="jar://E:/doc/sourceCode/jdk8u-jdk-master.zip!/jdk8u-jdk-master/src/share/classes" />
+      <root url="jar://E:/doc/sourceCode/jdk8u-jdk-master.zip!/jdk8u-jdk-master/src/share/classes" />
+      <root url="jar://E:/doc/sourceCode/jdk8u-jdk-master.zip!/jdk8u-jdk-master/src/share/classes" />
+    </SOURCES>
+    <jarDirectory url="file://$PROJECT_DIR$/lib" recursive="false" />
+  </library>
+</component>

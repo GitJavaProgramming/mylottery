@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false">
+    <file url="file://$PROJECT_DIR$/resource/config.properties" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/resource/log4j.properties" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/resource/number.txt" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/resource/不变条件.txt" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/org/pp/filter/ConditionFilter.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/org/pp/filter/DefaultBuildConditionFilter.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/org/pp/filter/DefaultConditionFilter.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/org/pp/filter/DynamicConditionFilter.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/org/pp/filter/FixedConditionFilter.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/org/pp/model/FiveElementEnum.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/org/pp/model/RemainderByThreeEnum.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/org/pp/model/RowData.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/org/pp/model/WrappedNumber.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/org/pp/res/number.txt" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/org/pp/res/不变条件.txt" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/org/pp/test/CreatePdmPartUI.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/org/pp/test/GridBagDemo.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/org/pp/test/JListTestFrame.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/org/pp/util/ByteUtil.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/org/pp/util/ConfigUtil.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/org/pp/util/FileUtil.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/org/pp/util/MsgCost.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/org/pp/util/NumberUtil.java" charset="UTF-8" />
+  </component>
+</project>
+

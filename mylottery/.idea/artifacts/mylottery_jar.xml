@@ -1,0 +1,47 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="mylottery:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/mylottery_jar</output-path>
+    <root id="archive" name="mylottery.jar">
+      <element id="module-output" name="mylottery" />
+      <element id="extracted-dir" path="E:/doc/logs/slf4j-api-1.7.12.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="E:/doc/logs/slf4j-log4j12-1.7.12.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="E:/doc/logs/log4j-1.2.17.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../base-utils/out/artifacts/base_utils_jar/base-utils.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="E:/doc/jackson2.5.2/jackson-annotations-2.5.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="E:/doc/jackson2.5.2/jackson-core-2.5.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="E:/doc/jackson2.5.2/jackson-core-asl-1.7.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="E:/doc/jackson2.5.2/jackson-databind-2.5.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="E:/doc/jackson2.5.2/jackson-mapper-asl-1.7.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="E:/doc/jackson2.5.2/jackson-jaxrs-base-2.5.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="E:/doc/jackson2.5.2/jackson-jaxrs-json-provider-2.5.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/beautyeye_lnf.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/poi-3.8-20120326.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="E:/doc/apache-commons/commons-io-2.0.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="E:/doc/apache-commons/commons-lang3-3.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="E:/doc/apache-commons/commons-logging-1.1.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="E:/doc/apache-commons/commons-beanutils-1.8.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="E:/doc/apache-commons/commons-collections-3.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="E:/doc/apache-commons/commons-beanutils-1.8.1-src.zip" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../logger/out/artifacts/base_logger/base-logger.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/jsoup/jsoup-1.11.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/jsoup/jsoup-1.11.3-sources.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/httpclient/jna-4.5.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/httpclient/httpmime-4.5.8.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/httpclient/commons-cli-1.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/httpclient/fluent-hc-4.5.8.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/httpclient/httpcore-4.4.11.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/httpclient/httpclient-4.5.8.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/httpclient/commons-codec-1.11.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/httpclient/httpcore-ab-4.4.11.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/httpclient/jna-platform-4.5.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/httpclient/commons-logging-1.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/httpclient/httpcore-nio-4.4.11.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/httpclient/httpclient-win-4.5.8.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/httpclient/httpcore-osgi-4.4.11.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/httpclient/httpasyncclient-4.1.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/httpclient/httpclient-osgi-4.5.8.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/httpclient/httpclient-cache-4.5.8.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/httpclient/httpasyncclient-cache-4.1.4.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

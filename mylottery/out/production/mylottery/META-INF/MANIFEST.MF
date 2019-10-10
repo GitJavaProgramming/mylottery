@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Class-Path: .;%JAVA_HOME%\lib;%JAVA_HOME%\lib\tools.jar
+Main-Class: org.pp.Client
+

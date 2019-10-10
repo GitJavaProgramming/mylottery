@@ -1,0 +1,5 @@
+组件 渲染器
+JTable TableCellRenderer
+JTree TreeCellRenderer
+JList ListCellRenderer
+JComboBox ListCellRenderer
