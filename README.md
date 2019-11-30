@@ -17,7 +17,7 @@
  
  软件截图
  
- ![Image text](https://raw.githubusercontent.com/GitJavaProgramming/mylottery/master/project-0.png)
+ ![Image](https://raw.githubusercontent.com/GitJavaProgramming/mylottery/master/project-0.png "")
  ![Image text](https://raw.githubusercontent.com/GitJavaProgramming/mylottery/master/project-1.png)
  ![Image text](https://raw.githubusercontent.com/GitJavaProgramming/mylottery/master/project-2.png)
  
