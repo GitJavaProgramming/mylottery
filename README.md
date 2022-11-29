@@ -1,6 +1,7 @@
 # mylottery
 
  项目不是maven构建 想要跑起来的童鞋可以给我发邮件： 455547940@qq.com
+ 项目用到jar包：链接：https://pan.baidu.com/s/1_RGTbyovLTTNJ8NRdfjGKg  提取码：9q6q
  
  大乐透分析 
  
