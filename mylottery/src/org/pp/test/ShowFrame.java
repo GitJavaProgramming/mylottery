@@ -1,7 +1,5 @@
 package org.pp.test;
 
-import com.sun.awt.AWTUtilities;
-
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.MouseAdapter;
@@ -19,7 +17,7 @@ public class ShowFrame extends JFrame {
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         Container container = this.getContentPane();
 // AWTUtilities.setWindowOpaque(this, true);
-        AWTUtilities.setWindowOpacity(this, 0.01f);
+//        AWTUtilities.setWindowOpacity(this, 0.01f);
         container.add(new MyPanel(this));
         this.setBackground(null);
         this.setVisible(true);
@@ -76,7 +74,7 @@ class FadeOut extends Thread {
         try {
             for (int i = 0; i < 50; i++) {
                 Thread.sleep(50);
-                AWTUtilities.setWindowOpacity(wnd, i / 50f);
+//                AWTUtilities.setWindowOpacity(wnd, i / 50f);
             }
         } catch (Exception ex) {
             ex.printStackTrace();

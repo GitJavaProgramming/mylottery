@@ -1,7 +1,7 @@
 package org.pp.component.table.cell.cellCombo;
 
-import com.sun.java.swing.plaf.motif.MotifComboBoxUI;
-import com.sun.java.swing.plaf.windows.WindowsComboBoxUI;
+//import com.sun.java.swing.plaf.motif.MotifComboBoxUI;
+//import com.sun.java.swing.plaf.windows.WindowsComboBoxUI;
 import org.pp.component.CCombo;
 import org.pp.component.table.IComboListComponent;
 import org.pp.component.table.IFilterComponent;
@@ -42,19 +42,19 @@ public class CCellComboBox extends CCombo implements ITableCellComponent {
         }
     }
 
-    class WindowsJTreeComboBoxUI extends WindowsComboBoxUI {
-        protected ComboPopup createPopup() {
-            return new CCellComboPopup(comboBox);
-        }
-    }
-
-    class MotifJTreeComboBoxUI extends MotifComboBoxUI {
-        private static final long serialVersionUID = 6284622455212671632L;
-
-        protected ComboPopup createPopup() {
-            return new CCellComboPopup(comboBox);
-        }
-    }
+//    class WindowsJTreeComboBoxUI extends WindowsComboBoxUI {
+//        protected ComboPopup createPopup() {
+//            return new CCellComboPopup(comboBox);
+//        }
+//    }
+//
+//    class MotifJTreeComboBoxUI extends MotifComboBoxUI {
+//        private static final long serialVersionUID = 6284622455212671632L;
+//
+//        protected ComboPopup createPopup() {
+//            return new CCellComboPopup(comboBox);
+//        }
+//    }
 
     public CCellComboBox(final ITableCellComponent cellComponent, JTable table) {
         setTable(table);
@@ -166,11 +166,11 @@ public class CCellComboBox extends CCombo implements ITableCellComponent {
         ComboBoxUI cui = (ComboBoxUI) UIManager.getUI(this);
         if (cui instanceof MetalComboBoxUI) {
             cui = new MetalJTreeComboBoxUI();
-        } else if (cui instanceof MotifComboBoxUI) {
+        } /*else if (cui instanceof MotifComboBoxUI) {
             cui = new MotifJTreeComboBoxUI();
         } else {
             cui = new WindowsJTreeComboBoxUI();
-        }
+        }*/
         setUI(cui);
     }
 

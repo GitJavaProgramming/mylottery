@@ -49,13 +49,14 @@ public class NumberUtil {
     private static final int[] arr7 = new int[]{31, 32, 33, 34, 35};
 
     static {
-        String jarFilePath = NumberUtil.class.getProtectionDomain().getCodeSource().getLocation().toString();
-        // URL Decoding
-        try {
-            classPath = java.net.URLDecoder.decode(jarFilePath, "UTF-8");
-        } catch (UnsupportedEncodingException e) {
-            e.printStackTrace();
-        }
+//        String jarFilePath = NumberUtil.class.getProtectionDomain().getCodeSource().getLocation().toString();
+//        // URL Decoding
+//        try {
+//            classPath = java.net.URLDecoder.decode(jarFilePath, "UTF-8");
+//        } catch (UnsupportedEncodingException e) {
+//            e.printStackTrace();
+//        }
+        classPath = ClassLoader.getSystemClassLoader().getResource("").getFile();
         for (int i = 1; i <= 35; i++) {
             numberSet.add(i);
             // 首位差 出现尾数
@@ -466,7 +467,7 @@ public class NumberUtil {
      */
     public static void writeFile(String fileName, Object... filterResult) {
         try {
-            File file = new File(new URI(classPath + fileName));
+            File file = new File(classPath + fileName);
 
             if (!file.exists()) {
                 file.createNewFile();
@@ -485,8 +486,6 @@ public class NumberUtil {
 
 
         } catch (IOException e) {
-            e.printStackTrace();
-        } catch (URISyntaxException e) {
             e.printStackTrace();
         }
     }
@@ -651,15 +650,13 @@ public class NumberUtil {
     public static void fillEditorPane(JEditorPane panel, String fileName) {
         FileReader fileReader = null;
         try {
-            File file = new File(new URI(classPath + fileName));
+            File file = new File(classPath + fileName);
             if (!file.exists()) {
                 file.createNewFile();
             }
             fileReader = new FileReader(file);
             panel.read(fileReader, "");
             panel.scrollRectToVisible(panel.getVisibleRect());
-        } catch (URISyntaxException e) {
-            e.printStackTrace();
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (IOException e) {
@@ -750,7 +747,7 @@ public class NumberUtil {
 
     public static final String getClassPath() {
         if (classPath.endsWith(".jar")) {
-            classPath = classPath + "!/";
+//            classPath = classPath + "!/";
         }
         return classPath;
     }

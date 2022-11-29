@@ -37,7 +37,7 @@ public abstract class DefaultConditionFilter implements ConditionFilter {
     }
 
     private void cacheCondition(String fileName, List<String> condition) throws IOException, URISyntaxException {
-        FileReader fileReader = new FileReader(new File(new URI(fileName)));
+        FileReader fileReader = new FileReader(fileName);
         BufferedReader reader = new BufferedReader(fileReader);
         String line = null;
         //按行读，并把每次读取的结果保存在line字符串中

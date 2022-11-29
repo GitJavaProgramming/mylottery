@@ -1,6 +1,5 @@
 package org.pp.util;
 
-import java.io.UnsupportedEncodingException;
 import java.util.ResourceBundle;
 
 /**
@@ -19,84 +18,39 @@ public final class ConfigUtil {
     }
 
     public static String getTestPath() {
-        try {
-            return new String(config.getString("testNum.name").getBytes("ISO-8859-1"), "utf-8");
-        } catch (UnsupportedEncodingException e) {
-            e.printStackTrace();
-        }
-        return null;
+        return config.getString("testNum.name");
     }
 
     public static String getFilterNumberPath() {
-        try {
-            return new String(config.getString("filter.number").getBytes("ISO-8859-1"), "utf-8");
-        } catch (UnsupportedEncodingException e) {
-            e.printStackTrace();
-        }
-        return null;
+        return config.getString("filter.number");
     }
 
     public static String getFilterFinalResult() {
-        try {
-            return new String(config.getString("filter.finalResult").getBytes("ISO-8859-1"), "utf-8");
-        } catch (UnsupportedEncodingException e) {
-            e.printStackTrace();
-        }
-        return null;
+        return config.getString("filter.finalResult");
     }
 
     public static String getFixCondition() {
-        try {
-            return new String(config.getString("filter.FixCondition").getBytes("ISO-8859-1"), "utf-8");
-        } catch (UnsupportedEncodingException e) {
-            e.printStackTrace();
-        }
-        return null;
+        return config.getString("filter.FixCondition");
     }
 
     public static String getDynamicCondition() {
-        try {
-            return new String(config.getString("filter.dynamicCondition").getBytes("ISO-8859-1"), "utf-8");
-        } catch (UnsupportedEncodingException e) {
-            e.printStackTrace();
-        }
-        return null;
+        return config.getString("filter.dynamicCondition");
     }
 
     public static String getFilterMiddleResult() {
-        try {
-            return new String(config.getString("filter.middleResult").getBytes("ISO-8859-1"), "utf-8");
-        } catch (UnsupportedEncodingException e) {
-            e.printStackTrace();
-        }
-        return null;
+        return config.getString("filter.middleResult");
     }
 
     public static String getLoadNumber() {
-        try {
-            return new String(config.getString("load.number").getBytes("ISO-8859-1"), "utf-8");
-        } catch (UnsupportedEncodingException e) {
-            e.printStackTrace();
-        }
-        return null;
+        return config.getString("load.number");
     }
 
     public static String getDefaultBuildCondition() {
-        try {
-            return new String(config.getString("filter.first").getBytes("ISO-8859-1"), "utf-8");
-        } catch (UnsupportedEncodingException e) {
-            e.printStackTrace();
-        }
-        return null;
+        return config.getString("filter.first");
     }
 
     public static String getVersionCurr() {
-        try {
-            return new String(config.getString("version.curr").getBytes("ISO-8859-1"), "utf-8");
-        } catch (UnsupportedEncodingException e) {
-            e.printStackTrace();
-        }
-        return null;
+        return config.getString("version.curr");
     }
 
 }

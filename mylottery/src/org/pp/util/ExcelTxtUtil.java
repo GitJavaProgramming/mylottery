@@ -6,7 +6,6 @@ import org.pp.component.table.CGridTable;
 import org.pp.component.table.ColumnInfo;
 import org.pp.component.table.IQualifier;
 import org.pp.component.table.cell.cellRenderer.CTableCellRenderer;
-import sun.swing.SwingUtilities2;
 
 import javax.swing.*;
 import javax.swing.table.DefaultTableCellRenderer;

@@ -1,6 +1,5 @@
 package org.pp.component;
 
-import com.sun.awt.AWTUtilities;
 import org.pp.component.event.CAction;
 import org.pp.util.SwingUtil;
 
@@ -25,7 +24,7 @@ public class CProgressBar extends JProgressBar {
 //            setSize(1, 1);
 
             setUndecorated(true);
-            AWTUtilities.setWindowOpaque(this, true);
+//            AWTUtilities.setWindowOpaque(this, true);
             getRootPane().setWindowDecorationStyle(JRootPane.NONE);
             setLocationRelativeTo(null);
 

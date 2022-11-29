@@ -5,15 +5,63 @@
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/resource" isTestSource="false" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="17" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="base-logger" level="application" />
-    <orderEntry type="library" name="logger-log4j-1.2.17" level="application" />
-    <orderEntry type="library" name="base-utils" level="application" />
-    <orderEntry type="library" name="apache-commons" level="application" />
-    <orderEntry type="library" name="lib" level="project" />
-    <orderEntry type="library" name="jackson2.5.2" level="application" />
-    <orderEntry type="library" name="jsoup" level="project" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/lib" recursive="false" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/lib/httpclient" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/lib/httpclient" recursive="false" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/lib/jackson2.5.2" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/lib/jackson2.5.2" />
+        </SOURCES>
+        <jarDirectory url="file://$MODULE_DIR$/lib/jackson2.5.2" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/lib/jackson2.5.2" recursive="false" type="SOURCES" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/lib/jsoup" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/lib/jsoup" />
+        </SOURCES>
+        <jarDirectory url="file://$MODULE_DIR$/lib/jsoup" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/lib/jsoup" recursive="false" type="SOURCES" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/lib/log" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/lib/log" recursive="false" />
+      </library>
+    </orderEntry>
   </component>
 </module>
-

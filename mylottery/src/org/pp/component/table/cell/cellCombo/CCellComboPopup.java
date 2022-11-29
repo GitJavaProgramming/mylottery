@@ -4,7 +4,7 @@ import org.pp.component.list.CList;
 import org.pp.component.table.IFilterComponent;
 import org.pp.component.table.cell.cellComponent.ITableCellComponent;
 import org.pp.component.table.cell.cellEditor.CTableCellEditor;
-import sun.swing.SwingUtilities2;
+//import sun.swing.SwingUtilities2;
 
 import javax.swing.*;
 import javax.swing.event.PopupMenuEvent;
@@ -202,7 +202,7 @@ public class CCellComboPopup extends JPopupMenu implements ComboPopup, PopupMenu
     public void popupMenuCanceled(PopupMenuEvent e) {
         // popupMenu 切换时触发？
         hide();
-        Component component = SwingUtilities2.compositeRequestFocus(comboBox);
+//        Component component = SwingUtilities2.compositeRequestFocus(comboBox);
 //        System.out.println(component.getName());
     }
 

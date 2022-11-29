@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../base-utils/base-utils.iml" filepath="$PROJECT_DIR$/../base-utils/base-utils.iml" />
       <module fileurl="file://$PROJECT_DIR$/mylottery.iml" filepath="$PROJECT_DIR$/mylottery.iml" />
     </modules>
   </component>
 </project>
-
