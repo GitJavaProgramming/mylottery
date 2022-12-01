@@ -7,8 +7,6 @@ import practice.util.DataUtils;
 
 import javax.swing.*;
 import java.io.*;
-import java.net.URI;
-import java.net.URISyntaxException;
 import java.text.DecimalFormat;
 import java.util.*;
 
@@ -384,7 +382,7 @@ public class NumberUtil {
 
     public static void writeFile(List<int[]> filterResult, String fileName) {
         try {
-            File file = new File(new URI(classPath + fileName));
+            File file = new File(classPath + fileName);
 
             if (!file.exists()) {
                 file.createNewFile();
@@ -401,14 +399,12 @@ public class NumberUtil {
             bw.close();
         } catch (IOException e) {
             e.printStackTrace();
-        } catch (URISyntaxException e) {
-            e.printStackTrace();
         }
     }
 
     public static void writeFile2(List<RowData> filterResult, String fileName) {
         try {
-            File file = new File(new URI(classPath + fileName));
+            File file = new File(classPath + fileName);
 
             if (!file.exists()) {
                 file.createNewFile();
@@ -430,14 +426,12 @@ public class NumberUtil {
 
         } catch (IOException e) {
             e.printStackTrace();
-        } catch (URISyntaxException e) {
-            e.printStackTrace();
         }
     }
 
     public static void appendFile(List<int[]> filterResult, String fileName) {
         try {
-            File file = new File(new URI(classPath + fileName));
+            File file = new File(classPath + fileName);
 
             if (!file.exists()) {
                 file.createNewFile();
@@ -453,8 +447,6 @@ public class NumberUtil {
             }
             bw.close();
         } catch (IOException e) {
-            e.printStackTrace();
-        } catch (URISyntaxException e) {
             e.printStackTrace();
         }
     }
@@ -583,11 +575,7 @@ public class NumberUtil {
 
     public static int loadNumber(JTextPane textPane, String fileName) {
         File file = null;
-        try {
-            file = new File(new URI(classPath + fileName));
-        } catch (URISyntaxException e) {
-            e.printStackTrace();
-        }
+        file = new File(classPath + fileName);
         FileReader fileReader = null;
         int result = 0;
         try {
@@ -636,11 +624,7 @@ public class NumberUtil {
     public static void doUpdateFile() {
         String fileName = ConfigUtil.getLoadNumber();
         File file = null;
-        try {
-            file = new File(new URI(classPath + fileName));
-        } catch (URISyntaxException e1) {
-            e1.printStackTrace();
-        }
+        file = new File(classPath + fileName);
         byte[] bytes = FileUtil.readFile(file);
         String userDir = System.getProperty("user.dir");
         String writeFilePath = userDir + File.separator + "resource" + File.separator + fileName;

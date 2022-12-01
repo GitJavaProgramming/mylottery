@@ -13,6 +13,14 @@ public class IssueRowData {
 
     private String number;
 
+    public IssueRowData() {
+    }
+
+    public IssueRowData(int issue, String number) {
+        this.issue = issue;
+        this.number = number;
+    }
+
     public int getIssue() {
         return issue;
     }

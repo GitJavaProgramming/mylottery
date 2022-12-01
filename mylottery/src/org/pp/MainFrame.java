@@ -25,6 +25,7 @@ import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Map;
 
 public class MainFrame extends JFrame {
 
@@ -129,8 +130,14 @@ public class MainFrame extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 gridTable.clear();
-                java.util.List<int[]> list = FetchUtil.update();
-                updateTable(list);
+                java.util.List<Map<String, Object>> list1 = FetchUtil.update2();
+                java.util.List<IssueRowData> dataList = new ArrayList<>();
+                for (Map<String, Object> lotteryDraw : list1) {
+//                    private String lotteryDrawNum;
+//                    private String lotteryDrawResult;
+                    dataList.add(new IssueRowData(Integer.parseInt(lotteryDraw.get("lotteryDrawNum").toString()), lotteryDraw.get("lotteryDrawResult").toString()));
+                }
+                gridTable.setData(dataList);
                 NumberUtil.doUpdateFile();
                 NumberUtil.fillEditorPane(editorPane, ConfigUtil.getLoadNumber());
             }

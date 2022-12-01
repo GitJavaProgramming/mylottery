@@ -5,10 +5,12 @@ import org.jsoup.Connection;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import practice.util.DataUtils;
+import practice.util.json.JsonUtil;
 
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 
 /**
  * Created with IntelliJ IDEA.
@@ -18,7 +20,8 @@ import java.util.List;
  * To change this template use File | Settings | File Templates.
  */
 public class FetchUtil {
-    private static final String url = "http://chart.lottery.gov.cn//dltBasicZongHeTongJi.do?typ=3&issueTop=15&param=0";
+    private static final String url = "https://webapi.sporttery.cn/gateway/lottery/getHistoryPageListV1.qry?gameNo=85&provinceId=0&pageSize=30&isVerify=1&pageNo=1";
+    //    private static final String url = "http://chart.lottery.gov.cn//dltBasicZongHeTongJi.do?typ=3&issueTop=15&param=0";
     private static final String url2 = "http://chart.lottery.gov.cn//dltBasicZongHeTongJi.do?typ=3&issueTop=5000&param=0";
 
     private static List<int[]> result = new ArrayList<>();
@@ -64,6 +67,7 @@ public class FetchUtil {
     public static List<int[]> update() {
         GLog.logger.info("抓取体彩中心数据 start...");
         Connection con = Jsoup.connect(url);
+        con.ignoreContentType(true);
         //建立链接，需要爬取的网页
         con.header("User-Agent", "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36");
         //伪造浏览器请求
@@ -99,12 +103,33 @@ public class FetchUtil {
         return list;
     }
 
+    public static List<Map<String, Object>> update2() {
+        GLog.logger.info("抓取体彩中心数据 start...");
+        Connection con = Jsoup.connect(url);
+        con.ignoreContentType(true);
+        //建立链接，需要爬取的网页
+        con.header("User-Agent", "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36");
+        //伪造浏览器请求
+        Connection.Response rs = null;//建立链接
+        try {
+            rs = con.execute();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        Document d1 = Jsoup.parse(rs.body());// 转换为Dom树
+        String str = d1.body().ownText();//转换成String类型
+        Map<String, Object> map = JsonUtil.unSerializableMap(String.class, Object.class, str);
+        List<Map<String, Object>> value = (List<Map<String, Object>>) ((Map) map.get("value")).get("list");
+        GLog.logger.info("抓取体彩中心数据 end...");
+        return value;
+    }
+
     public static List<int[]> getResult() {
         return result;
     }
 
     public static void setResult(List<int[]> result) {
-        FetchUtil.result = result;
+        FetchUtil.result = new ArrayList<>();
     }
 
     public static void main(String[] args) {

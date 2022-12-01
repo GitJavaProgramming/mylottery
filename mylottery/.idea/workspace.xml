@@ -7,258 +7,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08a6e938-8a6e-4e19-bd10-d59897350bb6" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../mylottery.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/log.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/commons-beanutils-1.8.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/commons-collections-3.2.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/commons-io-2.11.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/commons-lang3-3.12.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jackson2.5.2/jackson-annotations-2.5.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jackson2.5.2/jackson-core-2.5.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jackson2.5.2/jackson-core-asl-1.7.3-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jackson2.5.2/jackson-core-asl-1.7.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jackson2.5.2/jackson-databind-2.5.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jackson2.5.2/jackson-jaxrs-base-2.5.2-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jackson2.5.2/jackson-jaxrs-base-2.5.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jackson2.5.2/jackson-jaxrs-json-provider-2.5.2-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jackson2.5.2/jackson-jaxrs-json-provider-2.5.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jackson2.5.2/jackson-mapper-asl-1.7.3-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jackson2.5.2/jackson-mapper-asl-1.7.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/log/log4j-1.2.17.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/log/slf4j-api-1.7.12.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/log/slf4j-log4j12-1.7.12.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/Java日志.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/GLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice/util/BeanUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice/util/DataUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice/util/DateUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice/util/ReflectionUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice/util/StringUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice/util/exception/BeanAccessException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice/util/exception/GlobalConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice/util/exception/RootException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice/util/json/CustomDateSerializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice/util/json/JsonUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/mylottery_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/pp/model/LotteryDraw.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mylottery.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mylottery.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/curr" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/curr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/Client$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/Client$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/Client$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/Client$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/Client.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/MainFrame$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/MainFrame$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/MainFrame$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/MainFrame$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/MainFrame$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/MainFrame$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/MainFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/MainFrame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/Test$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/Test$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/Test$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/Test$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/Test$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/Test$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/Test$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/Test$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/Test$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/Test$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/Test$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/Test$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/Test$Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/Test$Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/CCombo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/CCombo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/CProgressBar$CProgressDialog$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/CProgressBar$CProgressDialog$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/CProgressBar$CProgressDialog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/CProgressBar$CProgressDialog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/CProgressBar.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/CProgressBar.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/CRoundedLineBorder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/CRoundedLineBorder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/event/AbstractSelectChangeListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/event/AbstractSelectChangeListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/event/ActionInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/event/ActionInterceptor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/event/CAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/event/CAction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/event/ISelectChangeListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/event/ISelectChangeListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/event/SelectEvent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/event/SelectEvent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/list/CList$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/list/CList$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/list/CList$CheckRenderer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/list/CList$CheckRenderer$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/list/CList$CheckRenderer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/list/CList$CheckRenderer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/list/CList$DataModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/list/CList$DataModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/list/CList$LabelRenderer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/list/CList$LabelRenderer$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/list/CList$LabelRenderer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/list/CList$LabelRenderer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/list/CList$RadioRenderer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/list/CList$RadioRenderer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/list/CList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/list/CList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/list/listCellRenderer/CheckRenderer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/list/listCellRenderer/CheckRenderer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/list/listCellRenderer/LabelRenderer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/list/listCellRenderer/LabelRenderer$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/list/listCellRenderer/LabelRenderer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/list/listCellRenderer/LabelRenderer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/list/listCellRenderer/RadioRenderer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/list/listCellRenderer/RadioRenderer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/table/CGridTable$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/table/CGridTable$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/table/CGridTable$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/table/CGridTable$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/table/CGridTable$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/table/CGridTable$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/table/CGridTable$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/table/CGridTable$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/table/CGridTable$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/table/CGridTable$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/table/CGridTable$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/table/CGridTable$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/table/CGridTable$CTableModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/table/CGridTable$CTableModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/table/CGridTable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/table/CGridTable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/table/CTableHeader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/table/CTableHeader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/table/CellAlignEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/table/CellAlignEnum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/table/ColSortEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/table/ColSortEnum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/table/ColumnInfo$ExportType.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/table/ColumnInfo$ExportType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/table/ColumnInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/table/ColumnInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/table/IComboListComponent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/table/IComboListComponent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/table/IFilterComponent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/table/IFilterComponent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/table/IQualifier.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/table/IQualifier.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/table/PropSetting.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/table/PropSetting.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/table/cell/cellCombo/CCellComboBox$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/table/cell/cellCombo/CCellComboBox$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/table/cell/cellCombo/CCellComboBox$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/table/cell/cellCombo/CCellComboBox$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/table/cell/cellCombo/CCellComboBox$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/table/cell/cellCombo/CCellComboBox$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/table/cell/cellCombo/CCellComboBox$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/table/cell/cellCombo/CCellComboBox$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/table/cell/cellCombo/CCellComboBox$MetalJTreeComboBoxUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/table/cell/cellCombo/CCellComboBox$MetalJTreeComboBoxUI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/table/cell/cellCombo/CCellComboBox$MotifJTreeComboBoxUI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/table/cell/cellCombo/CCellComboBox$WindowsJTreeComboBoxUI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/table/cell/cellCombo/CCellComboBox.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/table/cell/cellCombo/CCellComboBox.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/table/cell/cellCombo/CCellComboPopup$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/table/cell/cellCombo/CCellComboPopup$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/table/cell/cellCombo/CCellComboPopup$InvocationMouseHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/table/cell/cellCombo/CCellComboPopup$InvocationMouseHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/table/cell/cellCombo/CCellComboPopup$SelectListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/table/cell/cellCombo/CCellComboPopup$SelectListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/table/cell/cellCombo/CCellComboPopup.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/table/cell/cellCombo/CCellComboPopup.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/table/cell/cellCombo/CCellComboRenderer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/table/cell/cellCombo/CCellComboRenderer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/table/cell/cellCombo/CComboCellComponent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/table/cell/cellCombo/CComboCellComponent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/table/cell/cellCombo/CListCellComponent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/table/cell/cellCombo/CListCellComponent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/table/cell/cellCombo/NameValue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/table/cell/cellCombo/NameValue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/table/cell/cellComponent/CAbstractTableCellComponent$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/table/cell/cellComponent/CAbstractTableCellComponent$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/table/cell/cellComponent/CAbstractTableCellComponent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/table/cell/cellComponent/CAbstractTableCellComponent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/table/cell/cellComponent/CBooleanCellComponent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/table/cell/cellComponent/CBooleanCellComponent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/table/cell/cellComponent/CTextCellComponent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/table/cell/cellComponent/CTextCellComponent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/table/cell/cellComponent/ITableCellComponent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/table/cell/cellComponent/ITableCellComponent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/table/cell/cellComponent/ITranslator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/table/cell/cellComponent/ITranslator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/table/cell/cellEditor/CTableCellEditor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/table/cell/cellEditor/CTableCellEditor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/table/cell/cellRenderer/CTableCellRenderer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/component/table/cell/cellRenderer/CTableCellRenderer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/constant/Constant.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/constant/Constant.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/filter/ConditionFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/filter/ConditionFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/filter/DefaultBuildConditionFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/filter/DefaultBuildConditionFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/filter/DefaultConditionFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/filter/DefaultConditionFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/filter/DefaultPipeline.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/filter/DefaultPipeline.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/filter/DynamicConditionFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/filter/DynamicConditionFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/filter/FilterInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/filter/FilterInitializer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/filter/FixedConditionFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/filter/FixedConditionFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/filter/LocationFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/filter/LocationFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/filter/Pipeline.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/filter/Pipeline.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/filter/PropertyConditionFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/filter/PropertyConditionFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/handler/WindowEventHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/handler/WindowEventHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/model/ConditionRowData.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/model/ConditionRowData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/model/FiveElementEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/model/FiveElementEnum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/model/IssueRowData.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/model/IssueRowData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/model/Pair.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/model/Pair.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/model/RemainderByThreeEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/model/RemainderByThreeEnum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/model/RowData.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/model/RowData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/model/WrappedNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/model/WrappedNumber.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/panel/CPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/panel/CPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/panel/CPanelCellComponent$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/panel/CPanelCellComponent$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/panel/CPanelCellComponent$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/panel/CPanelCellComponent$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/panel/CPanelCellComponent$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/panel/CPanelCellComponent$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/panel/CPanelCellComponent$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/panel/CPanelCellComponent$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/panel/CPanelCellComponent$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/panel/CPanelCellComponent$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/panel/CPanelCellComponent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/panel/CPanelCellComponent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/panel/ConditionFilterPanel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/panel/ConditionFilterPanel$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/panel/ConditionFilterPanel$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/panel/ConditionFilterPanel$10.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/panel/ConditionFilterPanel$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/panel/ConditionFilterPanel$11.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/panel/ConditionFilterPanel$12.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/panel/ConditionFilterPanel$12.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/panel/ConditionFilterPanel$13.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/panel/ConditionFilterPanel$13.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/panel/ConditionFilterPanel$14.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/panel/ConditionFilterPanel$14.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/panel/ConditionFilterPanel$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/panel/ConditionFilterPanel$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/panel/ConditionFilterPanel$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/panel/ConditionFilterPanel$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/panel/ConditionFilterPanel$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/panel/ConditionFilterPanel$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/panel/ConditionFilterPanel$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/panel/ConditionFilterPanel$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/panel/ConditionFilterPanel$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/panel/ConditionFilterPanel$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/panel/ConditionFilterPanel$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/panel/ConditionFilterPanel$7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/panel/ConditionFilterPanel$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/panel/ConditionFilterPanel$8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/panel/ConditionFilterPanel$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/panel/ConditionFilterPanel$9.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/panel/ConditionFilterPanel$AddActionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/panel/ConditionFilterPanel$AddActionHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/panel/ConditionFilterPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/panel/ConditionFilterPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/panel/FilterNumberPanel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/panel/FilterNumberPanel$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/panel/FilterNumberPanel$2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/panel/FilterNumberPanel$2$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/panel/FilterNumberPanel$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/panel/FilterNumberPanel$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/panel/FilterNumberPanel$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/panel/FilterNumberPanel$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/panel/FilterNumberPanel$4$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/panel/FilterNumberPanel$4$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/panel/FilterNumberPanel$4$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/panel/FilterNumberPanel$4$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/panel/FilterNumberPanel$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/panel/FilterNumberPanel$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/panel/FilterNumberPanel$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/panel/FilterNumberPanel$5.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/panel/FilterNumberPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/panel/FilterNumberPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/panel/LocationSettingPanel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/panel/LocationSettingPanel$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/panel/LocationSettingPanel$InstanceHolder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/panel/LocationSettingPanel$InstanceHolder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/panel/LocationSettingPanel$ItemListenerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/panel/LocationSettingPanel$ItemListenerHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/panel/LocationSettingPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/panel/LocationSettingPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/panel/PropertyConditionPanel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/panel/PropertyConditionPanel$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/panel/PropertyConditionPanel$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/panel/PropertyConditionPanel$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/panel/PropertyConditionPanel$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/panel/PropertyConditionPanel$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/panel/PropertyConditionPanel$ItemListenerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/panel/PropertyConditionPanel$ItemListenerHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/panel/PropertyConditionPanel$ItemListenerHandler02.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/panel/PropertyConditionPanel$ItemListenerHandler02.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/panel/PropertyConditionPanel$ItemSelectedHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/panel/PropertyConditionPanel$ItemSelectedHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/panel/PropertyConditionPanel$ItemSelectedHandler01.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/panel/PropertyConditionPanel$ItemSelectedHandler01.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/panel/PropertyConditionPanel$ItemSelectedHandlerForAC.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/panel/PropertyConditionPanel$ItemSelectedHandlerForAC.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/panel/PropertyConditionPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/panel/PropertyConditionPanel.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/spider/FetchUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/spider/FetchUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/spider/HttpClient001.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/spider/HttpClient001.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/task/CacheSelectionNumberTask$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/task/CacheSelectionNumberTask$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/task/CacheSelectionNumberTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/task/CacheSelectionNumberTask.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/test/ButtonColumn.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/test/ButtonColumn.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/test/CheckBoxColumn$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/test/CheckBoxColumn$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/test/CheckBoxColumn.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/test/CheckBoxColumn.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/test/CheckBoxCustomized$1$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/test/CheckBoxCustomized$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/test/CheckBoxCustomized$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/test/CheckBoxCustomized.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/test/CreatePdmPartUI$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/test/CreatePdmPartUI$1$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/test/CreatePdmPartUI$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/test/CreatePdmPartUI$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/test/CreatePdmPartUI$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/test/CreatePdmPartUI$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/test/CreatePdmPartUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/test/CreatePdmPartUI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/test/FadeOut.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/test/FadeOut.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/test/GridBagDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/test/GridBagDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/test/Header.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/test/Header.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/test/HeaderCellConstraints.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/test/HeaderCellConstraints.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/test/HeaderCellLabel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/test/HeaderCellLabel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/test/HeaderLayout.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/test/HeaderLayout.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/test/JListTestFrame$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/test/JListTestFrame$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/test/JListTestFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/test/JListTestFrame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/test/LabelColumn.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/test/LabelColumn.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/test/MyPanel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/test/MyPanel$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/test/MyPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/test/MyPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/test/ProgressColumn.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/test/ProgressColumn.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/test/ProgressDialog$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/test/ProgressDialog$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/test/ProgressDialog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/test/ProgressDialog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/test/RoseCanvas.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/test/RoseCanvas.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/test/RoseJFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/test/RoseJFrame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/test/ShowFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/test/ShowFrame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/test/T$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/test/T$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/test/T.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/test/T.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/test/WebBrowser$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/test/WebBrowser$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/test/WebBrowser$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/test/WebBrowser$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/test/WebBrowser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/test/WebBrowser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/util/ArrayUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/util/ArrayUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/util/ByteUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/util/ByteUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/util/ClassUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/util/ClassUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/util/ConfigUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/util/ConfigUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/util/Constants.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/util/Constants.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/util/ExcelTxtUtil$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/util/ExcelTxtUtil$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/util/ExcelTxtUtil$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/util/ExcelTxtUtil$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/util/ExcelTxtUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/util/ExcelTxtUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/util/FileUtil$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/util/FileUtil$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/util/FileUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/util/FileUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/util/MsgCost.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/util/MsgCost.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/util/NumberUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/util/NumberUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/org/pp/util/SwingUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/org/pp/util/SwingUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/最终结果.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/首次过滤结果.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/首次过滤结果.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mylottery/默认生成条件.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylottery/默认生成条件.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/pp/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/pp/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/pp/component/CProgressBar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/pp/component/CProgressBar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/pp/component/table/cell/cellCombo/CCellComboBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/pp/component/table/cell/cellCombo/CCellComboBox.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/pp/component/table/cell/cellCombo/CCellComboPopup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/pp/component/table/cell/cellCombo/CCellComboPopup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/pp/filter/DefaultBuildConditionFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/pp/filter/DefaultBuildConditionFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/pp/filter/DefaultConditionFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/pp/filter/DefaultConditionFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/pp/test/CheckBoxCustomized.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/pp/test/ShowFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/pp/test/ShowFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/pp/util/ConfigUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/pp/util/ConfigUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/pp/util/ExcelTxtUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/pp/util/ExcelTxtUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/pp/MainFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/pp/MainFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/pp/model/IssueRowData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/pp/model/IssueRowData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/pp/panel/FilterNumberPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/pp/panel/FilterNumberPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/pp/spider/FetchUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/pp/spider/FetchUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/pp/util/NumberUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/pp/util/NumberUtil.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/mylottery$Test.coverage" NAME="Test Coverage Results" MODIFIED="1554600676686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -343,6 +114,13 @@
   <component name="FavoritesManager">
     <favorites_list name="mylottery" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="FindManager">
     <FindUsagesManager>
       <setting name="OPEN_NEW_TAB" value="false" />
@@ -372,6 +150,9 @@
         <option value="$PROJECT_DIR$/src/org/pp/panel/LocationSettingPanel.java" />
       </list>
     </option>
+  </component>
+  <component name="JRebelWorkspace">
+    <option name="jrebelEnabledAutocompile" value="true" />
   </component>
   <component name="MavenProjectNavigator">
     <treeState />
@@ -489,7 +270,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="dynamic.classpath" value="false" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="options.lastSelected" value="preferences.pluginManager" />
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
@@ -499,7 +280,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
@@ -509,8 +290,8 @@
       <recent name="org.pp.util" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\code\java\mylottery\mylottery\lib" />
       <recent name="E:\code\java\mylottery\mylottery\src" />
+      <recent name="E:\code\java\mylottery\mylottery\lib" />
       <recent name="E:\code\java\mylottery\mylottery\resource" />
       <recent name="D:\projects\mylottery\resource" />
       <recent name="D:\projects\mylottery\src\org\pp\res" />
@@ -746,6 +527,8 @@
       <workItem from="1669703815023" duration="258000" />
       <workItem from="1669704258329" duration="1018000" />
       <workItem from="1669705457941" duration="4383000" />
+      <workItem from="1669868857550" duration="2023000" />
+      <workItem from="1669871001882" duration="1913000" />
     </task>
     <servers />
   </component>
@@ -833,6 +616,11 @@
           <line>25</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/org/pp/spider/FetchUtil.java</url>
+          <line>80</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
         <breakpoint type="java-exception">
           <properties class="java.lang.IllegalArgumentException" package="java.lang" />
           <option name="timeStamp" value="3" />
@@ -843,6 +631,11 @@
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="map.get(&quot;value&quot;).toString()" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />

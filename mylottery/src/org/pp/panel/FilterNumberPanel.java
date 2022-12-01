@@ -426,12 +426,7 @@ public class FilterNumberPanel extends CPanel {
     public void saveFile() {
         File file = FileUtil.getSaveFile(this, "文本文件(*.txt)");
         String classpath = NumberUtil.getClassPath();
-        byte[] bytes = new byte[0];
-        try {
-            bytes = FileUtil.readFile(new File(new URI(classpath + ConfigUtil.getFilterFinalResult())));
-        } catch (URISyntaxException e) {
-            e.printStackTrace();
-        }
+        byte[] bytes = FileUtil.readFile(new File(classpath + ConfigUtil.getFilterFinalResult()));
         FileUtil.writeFile(bytes, file);
     }
 

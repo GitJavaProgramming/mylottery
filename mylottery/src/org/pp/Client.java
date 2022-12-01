@@ -1,14 +1,9 @@
 package org.pp;
 
-import org.jb2011.lnf.beautyeye.BeautyEyeLNFHelper;
 import org.pp.filter.DefaultBuildConditionFilter;
-import org.pp.spider.FetchUtil;
 import org.pp.task.CacheSelectionNumberTask;
-import org.pp.util.ConfigUtil;
-import org.pp.util.NumberUtil;
 
 import javax.swing.*;
-import java.lang.reflect.InvocationTargetException;
 
 /**
  * Created with IntelliJ IDEA.
