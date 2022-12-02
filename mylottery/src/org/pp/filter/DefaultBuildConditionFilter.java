@@ -1,7 +1,9 @@
 package org.pp.filter;
 
 import base.GLog;
+import org.apache.commons.io.FileUtils;
 import org.pp.model.RowData;
+import org.pp.spider.FetchUtil;
 import org.pp.util.ConfigUtil;
 import org.pp.util.NumberUtil;
 
@@ -9,7 +11,6 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
-import java.net.URI;
 import java.net.URISyntaxException;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -17,18 +18,26 @@ import java.util.List;
 
 public final class DefaultBuildConditionFilter extends DefaultConditionFilter {
 
-    private final ArrayList<int[]> arrayList = new ArrayList<>(4000);
     private static DefaultBuildConditionFilter instance = new DefaultBuildConditionFilter();
-
+    private final ArrayList<int[]> arrayList = new ArrayList<>(4000);
     private List<String> infoList;
 
     private List<String> result = new ArrayList<String>();
 
     private DefaultBuildConditionFilter() {
+        try {
+            FileUtils.writeLines(new File(NumberUtil.getClassPath() + ConfigUtil.getLoadNumber()), FetchUtil.getAllNumber());
+        } catch (IOException e) {
+            throw new RuntimeException("写入全部开奖数据出错...");
+        }
         // 读取往期开奖数据，生成过滤条件并写入文件
         cache(ConfigUtil.getLoadNumber());
         buildCondition();
         initCondition(ConfigUtil.getDefaultBuildCondition(), result);
+    }
+
+    public static DefaultBuildConditionFilter getInstance() {
+        return instance;
     }
 
     public String buildCondition(String origin, String condition) {
@@ -114,10 +123,6 @@ public final class DefaultBuildConditionFilter extends DefaultConditionFilter {
             arrayList.add(array);
         }
         reader.close();
-    }
-
-    public static DefaultBuildConditionFilter getInstance() {
-        return instance;
     }
 
     public ArrayList<int[]> getArrayList() {

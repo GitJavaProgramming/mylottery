@@ -1,8 +1,10 @@
 package org.pp.util;
 
+import org.apache.commons.io.FileUtils;
 import org.pp.filter.DefaultBuildConditionFilter;
 import org.pp.model.RemainderByThreeEnum;
 import org.pp.model.RowData;
+import org.pp.spider.FetchUtil;
 import practice.util.DataUtils;
 
 import javax.swing.*;
@@ -19,16 +21,9 @@ import java.util.*;
  */
 public class NumberUtil {
 
-    private static String classPath = "";
-
-    private static final DecimalFormat DF = new DecimalFormat("000000");
     public static final DecimalFormat DF2 = new DecimalFormat("00");
-
+    private static final DecimalFormat DF = new DecimalFormat("000000");
     private static final TreeSet<Integer> numberSet = new TreeSet<>();
-
-    private static Set<Integer> jiaoNumberSet = new HashSet<>();
-    private static Set<Integer> weiNumberSet = new HashSet<>();
-
     /**
      * 尾数表
      */
@@ -37,7 +32,6 @@ public class NumberUtil {
      * 尾数对应表
      */
     private static final TreeMap<Integer, Integer> tailNumPairMap = new TreeMap<Integer, Integer>();
-
     private static final int[] arr1 = new int[]{1, 2, 3, 4, 5};
     private static final int[] arr2 = new int[]{6, 7, 8, 9, 10};
     private static final int[] arr3 = new int[]{11, 12, 13, 14, 15};
@@ -45,6 +39,9 @@ public class NumberUtil {
     private static final int[] arr5 = new int[]{21, 22, 23, 24, 25};
     private static final int[] arr6 = new int[]{26, 27, 28, 29, 30};
     private static final int[] arr7 = new int[]{31, 32, 33, 34, 35};
+    private static String classPath = "";
+    private static Set<Integer> jiaoNumberSet = new HashSet<>();
+    private static Set<Integer> weiNumberSet = new HashSet<>();
 
     static {
 //        String jarFilePath = NumberUtil.class.getProtectionDomain().getCodeSource().getLocation().toString();

@@ -14,6 +14,22 @@ public class LotteryDraw {
     private String lotteryGameName;
     private String lotteryGameNum;
 
+    public LotteryDraw() {
+    }
+
+    public LotteryDraw(String lotteryDrawNum, String lotteryDrawResult, String lotteryDrawTime) {
+        this.lotteryDrawNum = lotteryDrawNum;
+        this.lotteryDrawResult = lotteryDrawResult;
+        this.lotteryDrawTime = lotteryDrawTime;
+    }
+
+    @Override
+    public String toString() {
+        final StringBuffer sb = new StringBuffer();
+        sb/*.append(lotteryDrawTime).append(" ")*/.append(lotteryDrawNum).append(" ").append(lotteryDrawResult);
+        return sb.toString();
+    }
+
     public String getLotteryDrawNum() {
         return lotteryDrawNum;
     }

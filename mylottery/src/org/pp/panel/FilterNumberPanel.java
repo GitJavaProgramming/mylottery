@@ -4,6 +4,7 @@ import base.GLog;
 import org.apache.commons.lang3.StringUtils;
 import org.pp.filter.*;
 import org.pp.model.RowData;
+import org.pp.spider.FetchUtil;
 import org.pp.task.CacheSelectionNumberTask;
 import org.pp.util.ConfigUtil;
 import org.pp.util.FileUtil;
@@ -19,23 +20,18 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.File;
-import java.net.URI;
-import java.net.URISyntaxException;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.TreeSet;
 
 public class FilterNumberPanel extends CPanel {
 
+    final JTextField textField = new JTextField(14);
     private List<RowData> result;
     private volatile boolean isSet = false;
-
     private JEditorPane editorPane = new JEditorPane();
-
     private JLabel labelCountAllNum;
     private JLabel labelAfterFilter;
-
-    final JTextField textField = new JTextField(14);
 
     public FilterNumberPanel() {
         this.setPreferredSize(new Dimension(900, 600));
@@ -55,9 +51,9 @@ public class FilterNumberPanel extends CPanel {
                         // 执行完成时，更新界面组件信息
                         labelAfterFilter.setText("" + CacheSelectionNumberTask.getResult().size());
                         NumberUtil.fillEditorPane(editorPane, ConfigUtil.getFilterMiddleResult());
-                        int[] latestLine = NumberUtil.getLatestNum();
+                        int[] latestLine = NumberUtil.stringArrToIntArray(FetchUtil.issueList.get(0).get("lotteryDrawResult").toString().split(" "));
                         int[] frontNumber = new int[5];
-                        System.arraycopy(latestLine, 1, frontNumber, 0, 5);
+                        System.arraycopy(latestLine, 0, frontNumber, 0, 5);
                         textField.setText(NumberUtil.IntArrayToString2(frontNumber));
                         flag = false;
                     }

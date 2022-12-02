@@ -1,6 +1,7 @@
 package org.pp;
 
 import base.GLog;
+import org.apache.commons.io.FileUtils;
 import org.pp.component.table.CGridTable;
 import org.pp.component.table.CellAlignEnum;
 import org.pp.component.table.ColumnInfo;
@@ -23,6 +24,8 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;
+import java.io.File;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Map;
@@ -33,7 +36,7 @@ public class MainFrame extends JFrame {
 
     private JEditorPane editorPane = new JEditorPane();
 
-    private int latestSelectedIndex = 3;
+    private int latestSelectedIndex = 1;
 //    private volatile boolean isSet = false;
 
     private CGridTable<IssueRowData> gridTable;
@@ -105,6 +108,11 @@ public class MainFrame extends JFrame {
 
         panel.add(numberPanel(), BorderLayout.WEST);
         panel.add(centerPanel(), BorderLayout.CENTER);
+
+        gridTable.clear();
+        java.util.List<IssueRowData> dataList = getDataList();
+        gridTable.setData(dataList);
+
         return panel;
     }
 
@@ -130,15 +138,13 @@ public class MainFrame extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 gridTable.clear();
-                java.util.List<Map<String, Object>> list1 = FetchUtil.update2();
-                java.util.List<IssueRowData> dataList = new ArrayList<>();
-                for (Map<String, Object> lotteryDraw : list1) {
-//                    private String lotteryDrawNum;
-//                    private String lotteryDrawResult;
-                    dataList.add(new IssueRowData(Integer.parseInt(lotteryDraw.get("lotteryDrawNum").toString()), lotteryDraw.get("lotteryDrawResult").toString()));
-                }
+                java.util.List<IssueRowData> dataList = getDataList();
                 gridTable.setData(dataList);
-                NumberUtil.doUpdateFile();
+                try {
+                    FileUtils.writeLines(new File(NumberUtil.getClassPath() + ConfigUtil.getLoadNumber()), FetchUtil.getAllNumber());
+                } catch (IOException e1) {
+                    throw new RuntimeException("写入全部开奖数据出错...");
+                }
                 NumberUtil.fillEditorPane(editorPane, ConfigUtil.getLoadNumber());
             }
         });
@@ -146,6 +152,17 @@ public class MainFrame extends JFrame {
         panel.add(panelNorth, BorderLayout.NORTH);
         panel.add(tablePanel(), BorderLayout.CENTER);
         return panel;
+    }
+
+    private java.util.List<IssueRowData> getDataList() {
+        java.util.List<Map<String, Object>> list1 = FetchUtil.update2();
+        java.util.List<IssueRowData> dataList = new ArrayList<>();
+        for (Map<String, Object> lotteryDraw : list1) {
+//                    private String lotteryDrawNum;
+//                    private String lotteryDrawResult;
+            dataList.add(new IssueRowData(Integer.parseInt(lotteryDraw.get("lotteryDrawNum").toString()), lotteryDraw.get("lotteryDrawResult").toString()));
+        }
+        return dataList;
     }
 
     private void updateTable(java.util.List<int[]> list) {

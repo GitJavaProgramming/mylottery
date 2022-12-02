@@ -1,16 +1,18 @@
 package org.pp.spider;
 
 import base.GLog;
+import org.apache.commons.io.IOUtils;
 import org.jsoup.Connection;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
+import org.pp.model.LotteryDraw;
+import org.pp.util.NumberUtil;
 import practice.util.DataUtils;
 import practice.util.json.JsonUtil;
 
+import java.io.FileOutputStream;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 /**
  * Created with IntelliJ IDEA.
@@ -20,7 +22,9 @@ import java.util.Map;
  * To change this template use File | Settings | File Templates.
  */
 public class FetchUtil {
+    public static final List<Map<String, Object>> issueList = new ArrayList<>(40);
     private static final String url = "https://webapi.sporttery.cn/gateway/lottery/getHistoryPageListV1.qry?gameNo=85&provinceId=0&pageSize=30&isVerify=1&pageNo=1";
+    private static final String urlForAll = "https://webapi.sporttery.cn/gateway/lottery/getHistoryPageListV1.qry?gameNo=85&provinceId=0&pageSize=300&isVerify=1&pageNo=1";
     //    private static final String url = "http://chart.lottery.gov.cn//dltBasicZongHeTongJi.do?typ=3&issueTop=15&param=0";
     private static final String url2 = "http://chart.lottery.gov.cn//dltBasicZongHeTongJi.do?typ=3&issueTop=5000&param=0";
 
@@ -119,9 +123,43 @@ public class FetchUtil {
         Document d1 = Jsoup.parse(rs.body());// 转换为Dom树
         String str = d1.body().ownText();//转换成String类型
         Map<String, Object> map = JsonUtil.unSerializableMap(String.class, Object.class, str);
-        List<Map<String, Object>> value = (List<Map<String, Object>>) ((Map) map.get("value")).get("list");
+        issueList.addAll((List<Map<String, Object>>) ((Map) map.get("value")).get("list"));
         GLog.logger.info("抓取体彩中心数据 end...");
-        return value;
+        return issueList;
+    }
+
+    public static List<LotteryDraw> getAllNumber() {
+        GLog.logger.info("获取全部开奖数据 start...");
+        Connection con = Jsoup.connect(urlForAll);
+        con.ignoreContentType(true);
+        //建立链接，需要爬取的网页
+        con.header("User-Agent", "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36");
+        //伪造浏览器请求
+        Connection.Response rs = null;//建立链接
+        try {
+            rs = con.execute();
+            IOUtils.writeChunked(rs.bodyAsBytes(), new FileOutputStream(NumberUtil.getClassPath() + "number.json"));
+        } catch (IOException e) {
+            throw new RuntimeException("全部开奖数据写入文件出错...");
+        }
+        Map<String, Object> map = JsonUtil.unSerializableMap(String.class, Object.class, rs.body());
+        List<Map<String, Object>> maps = (List<Map<String, Object>>) ((Map) map.get("value")).get("list");
+        List<LotteryDraw> list = new ArrayList<>(maps.size());
+        for (Map<String, Object> map1 : maps) {
+            LotteryDraw lotteryDraw = new LotteryDraw(map1.get("lotteryDrawNum").toString(),
+                    map1.get("lotteryDrawResult").toString(),
+                    map1.get("lotteryDrawTime").toString());
+            list.add(lotteryDraw);
+        }
+        Collections.sort(list, new Comparator<LotteryDraw>() {
+            @Override
+            public int compare(LotteryDraw o1, LotteryDraw o2) {
+                return Integer.parseInt(o1.getLotteryDrawNum()) - Integer.parseInt(o2.getLotteryDrawNum());
+            }
+        });
+
+        GLog.logger.info("获取全部开奖数据 end...");
+        return list;
     }
 
     public static List<int[]> getResult() {
